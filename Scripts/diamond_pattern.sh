@@ -11,7 +11,7 @@ if ! [ $N -ge 5 -a $N -le 9 ]; then
 fi
 
 clear
-###### first stage ######################
+###### upper trialbge ######################
 for ((i = 1; i <= N; i++)); do
 	for ((s = N; s >= i; s--)); do
 		echo -n " "
@@ -21,7 +21,7 @@ for ((i = 1; i <= N; i++)); do
 	done
 	echo ""
 done
-###### Second stage ######################
+###### lower triangle ######################
 for ((i = N; i >= 1; i--)); do
 	for ((s = i; s <= N; s++)); do
 		echo -n " "
