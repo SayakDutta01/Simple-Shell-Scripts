@@ -1,6 +1,6 @@
 
 
-#                     BASIC SHELL SCRIPTING
+#                                         BASIC SHELL SCRIPTING
 
 
 A collection of simple bash scripts
